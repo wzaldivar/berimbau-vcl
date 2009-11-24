@@ -52,7 +52,7 @@ const
   BB_WEB_SITE = 'http://berimbauvcl.sourceforge.net';
 
   // Berimbau VCL mail-list
-  BB_MAIL_LIST = 'berimbauvcl@googlegroups.com';
+  BB_MAIL_LIST = 'berimbauvcl-users@lists.sourceforge.net';
 
 type
   // Version information dummy type
