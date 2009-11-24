@@ -27,9 +27,11 @@ package BbCoreD7R;
 {$IMPLICITBUILD OFF}
 
 requires
-  rtl;
+  rtl,
+  vcl;
 
 contains
-  BbVersionInfo in '..\..\source\BbVersionInfo.pas';
+  BbVersionInfo in '..\..\source\BbVersionInfo.pas',
+  BbComponentsLinkers in '..\..\source\BbComponentsLinkers.pas';
 
 end.
