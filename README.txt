@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------ 
 
-BerimbauVCL 
+Berimbau VCL 
 
 Copyright (C) 2009 Walber Zaldivar <walber.zaldivar@gmail.com> 
 
@@ -31,7 +31,7 @@ For more details see http://en.wikipedia.org/wiki/Berimbau
 3. Why Beimbau? 
 
 The berimbau is simple but with a powerfull sound. The idea behind 
-BerimbauVCL is to get simple components with powerfull options for 
+Berimbau VCL is to get simple components with powerfull options for 
 developers. 
 
 4. If you found errors.
