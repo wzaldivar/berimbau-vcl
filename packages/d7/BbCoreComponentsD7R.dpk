@@ -1,4 +1,4 @@
-package BbCoreD7R;
+package BbCoreComponentsD7R;
 
 {$R *.res}
 {$ALIGN 8}
@@ -22,17 +22,15 @@ package BbCoreD7R;
 {$WRITEABLECONST OFF}
 {$MINENUMSIZE 1}
 {$IMAGEBASE $400000}
-{$DESCRIPTION 'BerimbauVCL Core Runtime'}
+{$DESCRIPTION 'Berimbau VCL Core Components Runtime'}
 {$RUNONLY}
 {$IMPLICITBUILD OFF}
 
 requires
   rtl,
-  vcl;
+  BbCoreD7R;
 
 contains
-  BbVersionInfo in '..\..\source\BbVersionInfo.pas',
-  BbComponentsLinkers in '..\..\source\BbComponentsLinkers.pas',
-  BbWndProcOverride in '..\..\source\BbWndProcOverride.pas';
+  BbStickyLabel in '..\..\source\BbStickyLabel.pas';
 
 end.
