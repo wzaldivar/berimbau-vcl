@@ -53,15 +53,15 @@ type
   public
     constructor Create(AOwner: TComponent); override;
     destructor Destroy; override;
-    function GetLinkedComponent: TComponent;
-    procedure SetLinkedComponent(const Value: TComponent);
+    function GetLinkedComponent: TComponent; virtual;
+    procedure SetLinkedComponent(const Value: TComponent); virtual;
   end;
 
   // delegation class for IBbControlLinked
   TBbControlLinked = class(TBbComponentLinked, IBbControlLinked)
   public
-    function GetLinkedControl: TControl;
-    procedure SetLinkedControl(const Value: TControl);
+    function GetLinkedControl: TControl; virtual;
+    procedure SetLinkedControl(const Value: TControl); virtual;
   end;
   
 implementation
