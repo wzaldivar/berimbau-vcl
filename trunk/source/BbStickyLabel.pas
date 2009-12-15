@@ -33,6 +33,18 @@ uses
   Classes, Controls, StdCtrls, Messages, BbWndProcOverride;
 
 type
+  // TStickPosition
+  //
+  // Relative position to StickControl
+  //
+  //               spTopLeft        spTopCenter       spTopRight
+  //     spLeftTop +-------------------------------------------+ spRightTop
+  //               |                                           |
+  //  spLeftCenter |                                           | spRightCenter
+  //               |                                           |
+  //  spLeftBottom +-------------------------------------------+ spRightBottom
+  //               spBottomLeft   spBottomCenter   spBottomRight
+  //
   TStickPosition = (spTopLeft,    spTopCenter,    spTopRight,
                     spBottomLeft, spBottomCenter, spBottomRight,
                     spLeftTop,    spLeftCenter,   spLeftBottom,
@@ -187,7 +199,7 @@ begin
   OldStickControl := StickControl;
 
   // Quick way
-  // Do it with property editor
+  // TODO: use a property editor
   if Value = Self then
   begin
     Exit;
@@ -401,6 +413,10 @@ end;
 
 procedure TBbStickyLabel.WndProcHook(var Message: TMessage);
 begin
+  // Firts I tried selecting messages but it fails
+  // ignoring some cases wich I don't understand.
+  //
+  // Now it works and don't retard so much (I think)
   StickUpdate;
 end;
 
