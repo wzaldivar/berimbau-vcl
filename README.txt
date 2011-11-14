@@ -16,7 +16,7 @@ D7*
 compatible with other versions, help to add support for other Delphi 
 versions (or C++ Builder) are welcome. 
 
-2. Watht's the meaning of Berimbau? 
+2. Waht's the meaning of Berimbau? 
 
 The berimbau is a single-string percussion instrument, a musical bow, 
 from Brazil. The berimbau's origins are not entirely clear, but there is 
