@@ -1,3 +1,12 @@
+I had abandoned this project years ago when stop working on Delphi 
+and move to C++, Python and Java worlds. I wanted during years 
+to depurate de code of WZ70 VCL my own code base and transform it 
+to Berimbau VCL but isn´t in my plans, I don´t know if it will 
+be again in my plans sometime in the future and Delphi 7 is so old now. 
+So I'm adding WZ70 into files of the project for someone who need it 
+or has the time to depurate this code. 
+Isn´t my best work but it was so helpfull to me.
+
 ------------------------------------------------------------------------ 
 
 Berimbau VCL 
